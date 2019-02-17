@@ -6,8 +6,8 @@ mostprofit = 0
 mostlossmonth = "None"
 mostloss = 0
 
-csvpath = os.path.join('budgetdata2.csv')
-file = open("budgetdata2.csv")
+csvpath = os.path.join('budget_data.csv')
+file = open("budget_data.csv")
 numline = len(file.readlines())
 #print (numline)#This was a test to see if my script properly 
 #measured the lines in the .csv file
